@@ -15,7 +15,7 @@ public class KinopoiskScraper {
 
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\senya\\IdeaProjects\\KinopoikParser\\src\\main\\resources\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver-win64/chromedriver-win64/chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
 
